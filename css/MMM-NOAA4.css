@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+.MMM-NOAA3 { margin: 0 auto;
+     float: left; width: 195px; margin-right: 20px;}
+.MMM-NOAA3 table {
+  border:none !important;
+} 
+ 
+ .MMM-NOAA3 .table th, tr, td{ text-align:center; table-layout:fixed; }
+ .MMM-NOAA3 tr { height: 29px;
+}
+.MMM-NOAA3 .img { width: 23px; height: 23px; align-content: center; padding-bottom:25%;}
+.MMM-NOAA3 .moon { width: 23px; height: 23px; align-content: center;}
+.MMM-NOAA3 .icon {width: 30px; height: 30px;}
+.MMM-NOAA3 .windy {width: 25px; height:25px; align-content: center;}
+.MMM-NOAA3 .forerow{padding-bottom: 10px;}
+ .MMM-NOAA3 .Forecasttable {
+     float: left;
+     clear: left;
+     display: inline;
+     margin-left: auto;
+     margin-right:auto;
+     text-align: center;
+}
+ .MMM-NOAA3 .rheading {
+     background-color: black;
+     text-align:center;
+     color: white;
+     text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+     padding: 2px;
+     font-size: 14px;
+     line-height: 110%;
+     -webkit-animation: background 120s ease-out infinite;
+  animation: background 120s ease-out infinite;
+	 border: 1px solid #a7bef3;
+    padding: 3px;
+}
+@-webkit-keyframes background {
+   0%   {background-color: #cc4400;}
+      25%  {background-color: #cc8800;}
+      50%  {background-color: #009900;}
+      75%  {background-color: #80bfff;}
+      100% {background-color: #cc4400;}
+}
+
+@keyframes background {
+ 0%   {background-color: #cc4400;}
+      25%  {background-color: #cc8800;}
+      50%  {background-color: #009900;}
+      75%  {background-color: #80bfff;}
+      100% {background-color: #cc4400;}
+}
+ .MMM-NOAA3 .font {
+     font-size: 23px;
+}
+.MMM-NOAA3 .fontac {
+     color:#e4ab5f 
+}
+.MMM-NOAA3 .fontss{
+     color: #e0e29a;
+}
+.MMM-NOAA3 .fontauw{
+     color:#51c7ca 
+}
+.MMM-NOAA3 .fontfor {
+     color: #000;
+}
+.MMM-NOAA3 .IMG {
+	width: 25px;
+	height: 24px;
+}
+.MMM-NOAA3 .image {width: 250%;
+height: 250%;}
+ .MMM-NOAA3 .xxsmall {
+     font-size: 10px;
+     color:orange;
+     margin: 10px;
+	 font-family: 'Muli', sans-serif;
+} 
+ .MMM-NOAA3 .advise {
+	 text-align: center;
+     font-size: 16px;
+	 line-height: 92%;
+	 color: Yellow;
+      animation: blinker 3s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+ .MMM-NOAA3 .warning {
+     font-size: 12px;
+     color:white;
+     margin: 10px;
+	 font-family: 'Muli', sans-serif;
+	 line-height: 102%;
+	 text-align: center;
+}
+ .MMM-NOAA3 .areas {
+     font-size: 10px;
+     color:white; 
+	 line-height: 92%;
+	 text-align: center;
+	 width: 80%;
+	 font-family: 'Muli', sans-serif; 
+}
+ .MMM-NOAA3 .list {
+     font-size: 12px;
+     color:white; 
+	 line-height: 92%;
+	width: 160px;
+    margin: auto; 
+    text-align: left;	
+}
+.MMM-NOAA3 .tempf .tempc{
+	padding: 0 1px 1px 1px ;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	position: relative;
+	z-index: -1;
+}
+.MMM-NOAA3 .floatl {float: left;}
+.MMM-NOAA3 .forec {
+	position: relative;
+    z-index: 1;
+}
+.MMM-NOAA3 .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+.MMM-NOAA3 .active, .collapsible:hover {
+    background-color: #555;
+}
+.MMM-NOAA3 .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.MMM-NOAA3 .index{
+  position:relative;
+  z-index: 1;
+}
+.MMM-NOAA3 .dates {font-size: 12px;}
+.MMM-NOAA3  .tooltip {
+    position: relative;
+    display: inline-block;
+	float: left;
+}
+.topshow {z-index:1;}
+.MMM-NOAA3 .tooltip .tooltiptext {
+    visibility: hidden;
+	width: 200px;
+	font-size: 17px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+	border-style:solid;
+    border-width:1px;
+    border-color:white;
+    transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 0px 2px #888888;
+	​padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+	line-height: 20px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.MMM-NOAA3 .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.MMM-NOAA3 .CellWithComment{
+  position:relative;
+  z-index: 1;
+}
+.MMM-NOAA3 .CellComment{
+  width: 80px;
+  line-height: 14px;
+  display:none;
+  float: center;
+  box-shadow: 0px 0px 0px 2px #888888;
+  height: auto;
+  z-index:100;
+  background-color:#080808;
+  border-style:solid;
+  border-width:1px;
+  border-color:white;
+  padding: 10px 5px 10px 5px;
+  font-size: 12px;
+  color:white; 
+  position: absolute; right: 0; bottom: 0; 
+  bottom: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.MMM-NOAA3 .CellComment2{
+  width: 100%
+  line-height: 14px;
+  display:none;
+  float: center;
+  box-shadow: 0px 0px 0px 2px #888888;
+  height: auto;
+  z-index:100;
+  background-color:#080808;
+  border-style:solid;
+  border-width:1px;
+  border-color:white;
+  padding: 10px 5px 10px 5px;
+  font-size: 12px;
+  color:white; 
+  position: absolute; right: 0; bottom: 0; 
+  bottom: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.MMM-NOAA3 .CellWithComment:hover span.CellComment{
+  display:block;
+}
+.MMM-NOAA3 .divTableParent{
+        max-height: 20px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+ .MMM-NOAA3    .divTable { 
+        display: table;
+		line-height: 8px;
+        width: 100%;
+        font-size: 14px;
+		text-align: center;
+		color: white;
+    }
+ .MMM-NOAA3    .divTableBody {
+        display: table-row-group;
+    }
+ .MMM-NOAA3    .divTableRow {
+        display: table-row;
+        position: relative;
+		line-height: 20px;
+    }
+.MMM-NOAA3     .divTableHead {
+        line-height: 5px;
+        animation: colorchange 121s  ease-out infinite; 
+      -webkit-animation: colorchange 121s  ease-out infinite; 
+	   border-right: 1px solid rgb(0, 0, 0);
+		line-height: 2px;
+        font-weight: 700;
+    }
+	
+		 @keyframes colorchange
+    {
+      0%   {color: #cc4400;}
+      25%  {color: #cc8800;}
+      50%  {color: #009900;}
+      75%  {color: #80bfff;}
+      100% {color: #cc4400;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {color: #cc4400;}
+      25%  {color: #cc8800;}
+      50%  {color: #009900;}
+      75%  {color: #80bfff;}
+      100% {color: #cc4400;}
+    }
+       
+  .MMM-NOAA3   .divTableCell, .divTableHead {
+        border: 1px solid rgba(44, 46, 46, 0.15);
+        display: table-cell;
+        padding: 8px;
+		height: 3px;
+		width: 33%;
+    }
+.MMM-NOAA3 	.divTableCell2 {
+        display: table-cell;
+        padding-bottom: 30px;
+		float: left;
+		font-size: 72px;
+    }
+  .MMM-NOAA3   .divTableCell, .divTableHead {
+        border-bottom: 0px;
+        border-right: 0px;
+    }
+/* Acordeon styles */
+.tab {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  color: #fff;
+  overflow: hidden;
+}
+input {
+  opacity: 0;
+  z-index: -1;
+}
+label {
+  float: left;
+  font-family: muli;
+  font-size: 12px;
+  position: relative;
+  display: block;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #000;
+  -webkit-transition: max-height .45s;
+  -o-transition: max-height .45s;
+  transition: max-height .45s;
+}
+/* :checked */
+input:checked ~ .tab-content {
+  max-height: 5em;
+}
