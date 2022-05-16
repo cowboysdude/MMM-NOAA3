@@ -156,14 +156,11 @@ You can add this to your config.js to change it if you'd like ... like this ->
 
 ## NOAA4 (Changes colors automatically)  
 
-![](examples/41.png) 
-![](examples/42.png) 
-![](examples/43.png) 
-![](examples/44.png) 
-![](examples/45.png)
+No plans for this... 
 
 ## NOAA5 (More condensed)
-![](examples/noaaShort.PNG)
+
+No plans for this...
 
 ## What's the mouseover?
 Now when you mouse over current temp at the top you'll get your forecast.....
