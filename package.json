@@ -8,7 +8,7 @@
     "ip": "^1.1.5",
     "node-where": "^1.1.0",
     "openuv": "^0.1.2",
-    "public-ip": "^5.0.0",
+    "public-ip": "^6.0.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {},
