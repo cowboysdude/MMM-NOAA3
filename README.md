@@ -1,10 +1,10 @@
 This repository is maintained by Cowboysdude 
 
-Due to Darksky no longer offering free api keys this module is quickly reaching the deprecated state.
+Due to Darksky no longer offering free API keys this module is quickly reaching the deprecated state.
 We've lost 3 providers so far in the past year..... There are no new providers offering api keys and 
 at this point you can use at your own risk.  
 
-[This is the third version of this module for MagicMirror2]
+**This is the third version of this module for MagicMirror².**
 
 # MMM-NOAA V3.0
 
@@ -30,12 +30,11 @@ There are multiple providers to choose from:  You only need one api from one of 
 Remember not all providers are created equal... Some are a bit better than others :)
 
 * weatherbit ~ https://www.weatherbit.io/api
-* darksky ~ https://darksky.net/dev  //[userlat and userlong ONLY work with this right now] 
 * weatherunlocked ~ https://developer.weatherunlocked.com/   [provides both api and appid keys, need them both, see example]
 * accuweather ~ https://developer.accuweather.com/
 * openweather ~ https://openweathermap.org/api 
  
-##    YOU WILL NEED YOUR LATITUDE AND LONGITUDE
+## YOU WILL NEED YOUR LATITUDE AND LONGITUDE
  You can find them right here: 
         https://www.latlong.net/
  
@@ -50,14 +49,14 @@ Will default to EN if NO translation file is found.
    
 ## Provider name MUST be in the config.js. Here they are:
 	 
-* weatherbit  
-* darksky
-* weatherunlocked 
-* accuweather  
-* openweather 
+* weatherbit
+* weatherunlocked
+* accuweather
+* openweather
     
 * For all of them EXCEPT WEATHERUNLOCKED
-     ```   {
+     ```js
+        {
         module: 'MMM-NOAA3',
 	position: 'top_left',
         config: {
@@ -71,7 +70,7 @@ Will default to EN if NO translation file is found.
          },
 	```
 * WeatherUnlocked API Example:
-	```
+	```js
 	  {
         module: 'MMM-NOAA3',
 	position: 'top_left',
@@ -93,7 +92,7 @@ From Zip Code "13502" returns "329671"-which is what I put in my config file in 
 zip: '329671', //MUST have valid zip Code
 	
 * Accuweather Example:
-	```
+	```js
 	 {
         module: 'MMM-NOAA3',
 	position: 'top_left',
@@ -122,6 +121,7 @@ Via the config you can change this..... currently it's set to 30 minutes like th
 
 You can add this to your config.js to change it if you'd like ... like this ->
 
+```js
     {
         module: 'MMM-NOAA3',
         config: {
@@ -133,7 +133,8 @@ You can add this to your config.js to change it if you'd like ... like this ->
 	           userlon: "xxxx"  //MUST HAVE BOTH 
 	}
     },
-	
+```
+
 ## CSS STYLES
 
 * You can choose one of 5 styles [colors] for NOAA3 
@@ -168,8 +169,9 @@ When you mouseover on the 4 day forecast you'll get your forecast for that day .
 
 ## Custom CSS
 What if I want just plain ole white?  
-Well just go to your css directory in MagicMirror2 and open up the css directory and edit your custom.css file like this!  
- ```
+Well just go to your css directory in MagicMirror2 and open up the css directory and edit your custom.css file like this!
+
+ ```js
   .MMM-NOAA3 .rheading {
      background-color:  #000;
      border: none;
@@ -177,9 +179,10 @@ Well just go to your css directory in MagicMirror2 and open up the css directory
   .MMM-NOAA3  .divTableHead {
       color: #fff;
      }  
-```  
+```
+
 That will give you plain old white headings OR pick any color style you want!!  :) Like this->  
 ![](examples/plain.png)
      
-## Start your mirror . . . enjoy! 
-  The first time you run it .....you may get an error.  It needs to find your lat/lon.  The 1st time you run it is when it finds it.....after that it will work without issue :)
+## Start your mirror . . . enjoy!
+The first time you run it .....you may get an error.  It needs to find your lat/lon.  The 1st time you run it is when it finds it.....after that it will work without issue :)
