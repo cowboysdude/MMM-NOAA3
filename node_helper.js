@@ -15,7 +15,7 @@ module.exports = NodeHelper.create({
     },
     provider: null,
     providers: {
-        darksky: 'ds',
+        pirateweather: 'ds', //was previously Darksky, now obsolete
         openweather: 'ow',
         wunderground: 'wg',
         apixu: 'ax',

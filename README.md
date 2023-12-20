@@ -1,8 +1,5 @@
 This repository is maintained by Cowboysdude 
 
-Due to Darksky no longer offering free api keys this module is quickly reaching the deprecated state.
-We've lost 3 providers so far in the past year..... There are no new providers offering api keys and 
-at this point you can use at your own risk.  
 
 [This is the third version of this module for MagicMirror2]
 
@@ -30,7 +27,7 @@ There are multiple providers to choose from:  You only need one api from one of 
 Remember not all providers are created equal... Some are a bit better than others :)
 
 * weatherbit ~ https://www.weatherbit.io/api
-* darksky ~ https://darksky.net/dev  //[userlat and userlong ONLY work with this right now] 
+* Pirateweather ~ https://pirate-weather.apiable.io/  //[userlat and userlong ONLY work with this right now] 
 * weatherunlocked ~ https://developer.weatherunlocked.com/   [provides both api and appid keys, need them both, see example]
 * accuweather ~ https://developer.accuweather.com/
 * openweather ~ https://openweathermap.org/api 
@@ -51,7 +48,7 @@ Will default to EN if NO translation file is found.
 ## Provider name MUST be in the config.js. Here they are:
 	 
 * weatherbit  
-* darksky
+* pirateweather
 * weatherunlocked 
 * accuweather  
 * openweather 

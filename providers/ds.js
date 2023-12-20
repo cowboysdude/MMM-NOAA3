@@ -29,7 +29,7 @@
 
 		  		  addModuleConfiguration: function(moduleConfig) {
                if(!moduleConfig.apiKey) {
-                   throw new Error('Invalid config, No key for DarkSky');
+                   throw new Error('Invalid config, No key for Pirateweather');
          }
            this.config.apiKey = moduleConfig.apiKey;
  		   this.config.airKey = moduleConfig.airKey;
@@ -65,9 +65,9 @@
       getData: function(callback) {
 		 var self = this;
 		 if (config.language != 'gr') {
-		 url = "https://api.darksky.net/forecast/"+this.config.apiKey+"/"+this.config.userlat+","+this.config.userlon+"?lang="+config.language;
+		 url = "https://api.pirateweather.net/forecast/"+this.config.apiKey+"/"+this.config.userlat+","+this.config.userlon+"?lang="+config.language;
 	     } else {
-		 url = "https://api.darksky.net/forecast/"+this.config.apiKey+"/"+this.config.userlat+","+this.config.userlon+"?lang=el";
+		 url = "https://api.pirateweather.net/forecast/"+this.config.apiKey+"/"+this.config.userlat+","+this.config.userlon+"?lang=el";
 		 }
 		 request(url, function (error, response, body) {
 
@@ -193,7 +193,7 @@
 
 	 getALERT: function(callback) {
         var self = this;
-        url = "https://api.darksky.net/forecast/"+this.config.apiKey+"/"+this.config.userlat+","+this.config.userlon+"?lang="+config.language;
+        url = "https://api.pirateweather.net/forecast/"+this.config.apiKey+"/"+this.config.userlat+","+this.config.userlon+"?lang="+config.language;
         request(url, function(error, response, body) {
 
             if (error) {

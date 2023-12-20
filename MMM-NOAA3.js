@@ -464,7 +464,7 @@ console.log(this.issue);
             wrapper.appendChild(ForecastTable);
         }
 		
-//////////ALERT FOR DarkSKY ONLY////////////////////
+//////////ALERT FOR PIRATEWEATHER ONLY////////////////////
 					var issue = this.issue;
 		if (typeof issue != 'undefined' || null){
 			var keys = Object.keys(this.issue);
