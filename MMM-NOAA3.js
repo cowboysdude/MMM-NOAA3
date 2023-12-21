@@ -456,7 +456,7 @@ console.log(this.issue);
                 var temper = document.createElement("td");
                 temper.setAttribute("colspan", "1");
                 temper.classList.add("xsmall","bright");
-                temper.innerHTML = (config.units != "metric") ? Math.round(noaa.high.fahrenheit) + "/" + Math.round(noaa.low.fahrenheit) : Math.round(noaa.high.celsius) + "/" + Math.round(noaa.low.celsius);
+                temper.innerHTML = (config.units != "metric") ? Math.round(noaa.high.fahrenheit) + "/" +  Math.round(noaa.low.fahrenheit) : "<span class='thigh'>" + Math.round(noaa.high.celsius) + "</span>" + "/" + "<span class='tlow'>" + Math.round(noaa.low.celsius) + "</span>";
                 tempRow.appendChild(temper);
                 ForecastTable.appendChild(tempRow);
             }

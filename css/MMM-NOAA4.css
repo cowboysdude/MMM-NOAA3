@@ -5,6 +5,9 @@
   border:none !important;
 } 
  
+.tlow {color: #97c7f7;}
+.thigh{color: #ff8e99;}
+
  .MMM-NOAA3 .table th, tr, td{ text-align:center; table-layout:fixed; }
  .MMM-NOAA3 tr { height: 29px;
 }
@@ -204,7 +207,7 @@ height: 250%;}
   border-radius: 5px;
 }
 .MMM-NOAA3 .CellComment2{
-  width: 100%
+  width: 100%;
   line-height: 14px;
   display:none;
   float: center;
