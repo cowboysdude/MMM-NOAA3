@@ -2,6 +2,10 @@
 .MMM-NOAA3 {
      width: 195px;
 }
+
+.tlow {color: #97c7f7;}
+.thigh{color: #ff8e99;}
+
 .MMM-NOAA3 table {
   border-collapse: collapse;
   border-style: hidden;
@@ -179,7 +183,7 @@ height: 250%;}
   border-radius: 5px;
 }
 .MMM-NOAA3 .CellComment2{
-  width: 100%
+  width: 100%;
   line-height: 14px;
   display:none;
   float: center;
