@@ -5,7 +5,7 @@
   "main": "MMM-NOAA3.js",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "ip": "^1.1.5",
+    "ip": "^2.0.0",
     "node-where": "^1.1.0",
     "openuv": "^0.1.2",
     "public-ip": "^5.0.0",
