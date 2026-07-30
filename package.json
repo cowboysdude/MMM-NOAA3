@@ -9,7 +9,7 @@
     "node-where": "^1.1.0",
     "openuv": "^0.1.2",
     "public-ip": "^5.0.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.6.0"
   },
   "devDependencies": {},
   "scripts": {
